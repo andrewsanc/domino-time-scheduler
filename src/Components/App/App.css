@@ -1,6 +1,7 @@
 .dominoContainer {
   display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   margin: 40px 20px;
   left: calc(50% - 300px);
 }
