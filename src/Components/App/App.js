@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 import Domino from "../Domino/Domino";
+import DominoDetails from "../DominoDetails/DominoDetails";
+import QuoteDetails from "../QuoteDetails/QuoteDetails";
+import DominoSettings from "../DominoSettings/DominoSettings";
 
 class App extends Component {
   constructor(props) {
@@ -25,7 +28,12 @@ class App extends Component {
     return (
       <div className="app">
         <div className="dominoContainer">{dominos}</div>
-        <div>
+        <div className="detailsContainer">
+          <DominoDetails />
+          <div className="verticalContainer">
+            <QuoteDetails />
+            <DominoSettings />
+          </div>
         </div>
       </div>
     );

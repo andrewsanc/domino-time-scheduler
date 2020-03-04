@@ -1,7 +1,21 @@
 .dominoContainer {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
-  margin: 40px 20px;
+  justify-content: center;
+  margin: 40px;
   left: calc(50% - 300px);
+}
+
+.detailsContainer {
+  display: flex;
+  margin: 40px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 50%;
 }
